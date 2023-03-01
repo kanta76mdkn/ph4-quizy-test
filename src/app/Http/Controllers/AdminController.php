@@ -58,7 +58,7 @@ class AdminController extends Controller
             if ($index === intval($request->valid)) {
                 $choice->valid = true;
             } else {
-                $choice->valid = false;
+                $choice->valid = false; 
             }
             $choice->save();
         }
