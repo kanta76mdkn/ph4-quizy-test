@@ -8,6 +8,7 @@ jobs:
         with:
           fetch-depth: 0
 
+
       - name: '環境の起動とテスト'
         run: | 
           docker-compose up -d
